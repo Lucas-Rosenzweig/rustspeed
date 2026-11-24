@@ -65,7 +65,7 @@
 - [x] 6.1 Écrire le Dockerfile multi-stage (frontend Node → builder Rust → image finale minimale)
 - [x] 6.2 Déclarer `HEALTHCHECK` Docker sur `/healthz` et exposer le port configuré
 - [x] 6.3 Documenter le volume Docker persistant pour `RUSTSPEED_DATABASE_PATH`
-- [ ] 6.4 Configurer le déploiement Coolify derrière Traefik pour `speed.mars.lucasrosen.fr`
+- [x] 6.4 Configurer le déploiement Coolify derrière Traefik pour `speed.mars.lucasrosen.fr`
       (TLS Let's Encrypt, `TRUSTED_PROXIES` réglé sur l'IP interne de Traefik)
 - [x] 6.5 Mettre en place la CI GitHub Actions (fmt, clippy, tests Rust, build front, build image
       Docker)
